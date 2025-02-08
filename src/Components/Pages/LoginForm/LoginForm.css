@@ -1,0 +1,105 @@
+.wrapper {
+    width: 450px;
+    color: black;
+    background: transparent;
+    border-radius: 40px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input_field {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+.input_field input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 50px 20px 20px;
+
+}
+
+
+.input_field input::placeholder {
+    color: black;
+}
+
+.input_field  .icons {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper .remember-forgot-actions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot-actions label input {
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.remember-forgot-actions a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot-actions a:hover {
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Comfortaa';
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper button:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+    color: #2D5D7E;
+}
+
+.wrapper .signup {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.signup p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup p a:hover {
+    text-decoration: underline;
+}
